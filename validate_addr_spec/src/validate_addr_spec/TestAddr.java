@@ -12,7 +12,7 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testD1(){
+	public void testD1_LD1(){
 		String valid[] = {"example.com"};
 		String invalid[] = {"example<>.com"};
 		for (String s: valid) {
@@ -25,7 +25,7 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testD2(){
+	public void testD2_LD2(){
 		String valid[] = {"example.com"};
 		String invalid[] = {".example.com"};
 
@@ -39,7 +39,7 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testD3(){
+	public void testD3_LD3(){
 		String valid[] = {"example.com"};
 		String invalid[] = {"example.com."};
 
@@ -53,7 +53,7 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testD4(){
+	public void testD4_LD4(){
 		String valid[] = {"example.com"};
 		String invalid[] = {"example..com"};
 		for (String s: valid) {
@@ -66,7 +66,7 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testD5(){
+	public void testD5_LD5(){
 		String valid[] = {"example.com"};
 		String invalid[] = {""};
 		for (String s: valid) {
