@@ -8,11 +8,6 @@ import org.junit.Test;
 public class TestAddr extends TestCase{
 
 	@Test
-	public void test() {
-		//fail("まだ実装されていません");
-	}
-
-	@Test
 	public void testD1_LD1(){
 		String valid[] = {"example.com"};
 		String invalid[] = {"example<>.com"};
@@ -68,7 +63,7 @@ public class TestAddr extends TestCase{
 
 	@Test
 	public void testD5_LD5(){
-		String valid[] = {"example.com"};
+		String valid[] = {"example.com","test.jp"};
 		String invalid[] = {""};
 		for (String s: valid) {
 			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD5(s));

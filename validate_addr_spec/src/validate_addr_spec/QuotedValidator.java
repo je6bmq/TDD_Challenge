@@ -14,6 +14,6 @@ public class QuotedValidator {
         return true;
     }
     public static boolean isValidLQ5(String domain) {
-        return true;
+        return domain.length() >= 2;
     }
 }
