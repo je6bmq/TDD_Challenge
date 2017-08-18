@@ -7,6 +7,8 @@ public class Circle {
 	}
 
 	public int calculateArea(){
-		return 0;
+		return Round.round(r * r * Math.PI);
 	}
+
+
 }

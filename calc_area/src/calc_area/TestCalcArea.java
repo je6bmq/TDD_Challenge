@@ -1,12 +1,12 @@
 package calc_area;
 
-import junit.framework.TestCase;
-import org.junit.Test;
-
 import java.io.File;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
+
+import org.junit.Test;
+
+import junit.framework.TestCase;
 
 public class TestCalcArea extends TestCase {
 
@@ -42,14 +42,39 @@ public class TestCalcArea extends TestCase {
 	@Test
 	public void testCalcArea5() {
 		Circle circle = new Circle(0.0);
-		assertEquals(circle.calculateArea(),196350);
+		assertEquals(circle.calculateArea(),0);
 	}
 
 	@Test
 	public void testCalcArea6() {
 		Circle circle = new Circle(9999.0);
-		assertEquals(circle.calculateArea(),314087173);
+		assertEquals(circle.calculateArea(),314096437);
 	}
+
+	@Test
+	public void testRound1(){
+		double v = 4.4999;
+		assertEquals(4, Round.round(v));
+	}
+
+	@Test
+	public void testRound2(){
+		double v = 4.5000;
+		assertEquals(5, Round.round(v));
+	}
+
+	@Test
+	public void testRound3(){
+		double v = 0.4999;
+		assertEquals(0, Round.round(v));
+	}
+
+	@Test
+	public void testRound4(){
+		double v = 9.5000;
+		assertEquals(10, Round.round(v));
+	}
+
 	@Test
 	public void testReader() {
 		File file;
@@ -67,7 +92,7 @@ public class TestCalcArea extends TestCase {
 		catch (Exception e) {
 			e.getStackTrace();
 		}
-
-
 	}
+
+
 }
