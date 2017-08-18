@@ -51,7 +51,7 @@ public class TestAddr extends TestCase{
 	@Test
 	public void testD4_LD4(){
 		String valid[] = {"example.com"};
-		String invalid[] = {"example..com"};
+		String invalid[] = {"example..com","test...jp","test.co..jp"};
 		for (String s: valid) {
 			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD4(s));
 		}
