@@ -57,10 +57,10 @@ public class TestAddr {
 		String valid[] = {"example.com"};
 		String invalid[] = {"example..com"};
 		for (String s: valid) {
-			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD4(s));
 		}
 		for (String s: invalid) {
-			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD1(s));
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD4(s));
 		}
 
 	}
@@ -70,10 +70,10 @@ public class TestAddr {
 		String valid[] = {"example.com"};
 		String invalid[] = {""};
 		for (String s: valid) {
-			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD5(s));
 		}
 		for (String s: invalid) {
-			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD1(s));
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD5(s));
 		}
 
 	}
