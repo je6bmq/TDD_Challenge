@@ -14,6 +14,6 @@ public class DomainDotValidator {
         return true;
     }
     public static boolean isValidD5(String domain) {
-        return true;
+        return domain.length() >= 1;
     }
 }

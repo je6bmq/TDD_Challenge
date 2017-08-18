@@ -2,9 +2,10 @@ package validate_addr_spec;
 
 import static org.junit.Assert.*;
 
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class TestAddr {
+public class TestAddr extends TestCase{
 
 	@Test
 	public void test() {
