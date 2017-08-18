@@ -8,7 +8,7 @@ public class DomainDotValidator {
         return true;
     }
     public static boolean isValidD3(String domain) {
-        return true;
+        return domain.lastIndexOf(".") != domain.length() - 1;
     }
     public static boolean isValidD4(String domain) {
         return domain.indexOf("..") == -1;
