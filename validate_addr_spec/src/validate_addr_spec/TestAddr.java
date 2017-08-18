@@ -9,8 +9,8 @@ public class TestAddr extends TestCase{
 
 	@Test
 	public void testD1_LD1(){
-		String valid[] = {"example.com"};
-		String invalid[] = {"example<>.com"};
+		String valid[] = {"example.com","!#$%&'*+-/=?^_`{|}~.jp","199#test.com"};
+		String invalid[] = {"example<>.com","!#$%&'*+-/=?^_`{|}~(),.:;<>@[]"};
 		for (String s: valid) {
 			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
 		}
