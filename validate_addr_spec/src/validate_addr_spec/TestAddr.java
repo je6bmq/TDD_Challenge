@@ -79,23 +79,23 @@ public class TestAddr {
 	}
 
 	@Test
-	public void testLD1() {
+	public void testLQ1() {
 
 	}
 	@Test
-	public void testLD2() {
+	public void testLQ2() {
 
 	}
 	@Test
-	public void testLD3() {
+	public void testLQ3() {
 
 	}
 	@Test
-	public void testLD4() {
+	public void testLQ4() {
 
 	}
 	@Test
-	public void testLD5() {
+	public void testLQ5() {
 
 	}
 }
