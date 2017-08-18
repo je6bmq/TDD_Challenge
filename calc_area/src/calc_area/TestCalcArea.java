@@ -26,7 +26,7 @@ public class TestCalcArea {
 	@Test
 	public void testCalcArea3() {
 		Circle circle = new Circle(100.0);
-		assertEquals(circle.calculateArea(),314516);
+		assertEquals(circle.calculateArea(),31416);
 	}
 
 	@Test
