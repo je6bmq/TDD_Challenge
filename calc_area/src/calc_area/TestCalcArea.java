@@ -12,29 +12,39 @@ public class TestCalcArea {
 	}
 
 	@Test
-	public void testCalcArea(){
+	public void testCalcArea1(){
 		Circle circle = new Circle(10.0);
 		assertEquals(circle.calculateArea(),314);
 
-		circle = new Circle(250.0);
+	}
+	@Test
+	public void testCalcArea2() {
+		Circle circle = new Circle(250.0);
 		assertEquals(circle.calculateArea(),196350);
-
-		circle = new Circle(100.0);
-		assertEquals(circle.calculateArea(),31416);
-
-		circle = new Circle(1.5);
-		assertEquals(circle.calculateArea(),7);
-
-		circle = new Circle(10.0);
-		assertEquals(circle.calculateArea(),314);
-
-		circle = new Circle(0.0);
-		assertEquals(circle.calculateArea(),0);
-
-		circle = new Circle(9999.0);
-		assertEquals(circle.calculateArea(),314087173);
 	}
 
+	@Test
+	public void testCalcArea3() {
+		Circle circle = new Circle(100.0);
+		assertEquals(circle.calculateArea(),314516);
+	}
 
+	@Test
+	public void testCalcArea4() {
+		Circle circle = new Circle(1.5);
+		assertEquals(circle.calculateArea(),7);
+	}
+
+	@Test
+	public void testCalcArea5() {
+		Circle circle = new Circle(0.0);
+		assertEquals(circle.calculateArea(),196350);
+	}
+
+	@Test
+	public void testCalcArea6() {
+		Circle circle = new Circle(9999.0);
+		assertEquals(circle.calculateArea(),314087173);
+	}
 
 }
