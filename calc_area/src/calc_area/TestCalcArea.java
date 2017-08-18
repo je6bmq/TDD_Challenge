@@ -1,10 +1,14 @@
 package calc_area;
 
-import static org.junit.Assert.*;
-
+import junit.framework.TestCase;
 import org.junit.Test;
 
-public class TestCalcArea {
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class TestCalcArea extends TestCase {
 
 	@Test
 	public void test() {
@@ -46,5 +50,24 @@ public class TestCalcArea {
 		Circle circle = new Circle(9999.0);
 		assertEquals(circle.calculateArea(),314087173);
 	}
+	@Test
+	public void testReader() {
+		File file;
+		try{
+			file=new File("test_case.txt");
+			RadiusReader reader= new RadiusReader(new Scanner(file));
+			ArrayList<Double> inputList=reader.getRadiusList();
 
+			assertEquals(inputList.size(),4);
+			assertEquals(inputList.get(0),10.0);
+			assertEquals(inputList.get(1),250.0);
+			assertEquals(inputList.get(2),100.0);
+			assertEquals(inputList.get(3),1.5);
+		}
+		catch (Exception e) {
+			e.getStackTrace();
+		}
+
+
+	}
 }
