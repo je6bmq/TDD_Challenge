@@ -15,7 +15,7 @@
       <file leaf-file-name="TestAddr.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/TestAddr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1980">
+            <state relative-caret-position="-2277">
               <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
               <folding />
             </state>
@@ -25,19 +25,19 @@
       <file leaf-file-name="QuotedValidator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/QuotedValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="165">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#159#160#0" expanded="true" />
                 <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#418#419#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,9 +296,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAddr - 2017.08.18 at 18h 22m 24s.xml">
-      <configuration name="TestAddr" configurationId="AndroidJUnit" />
-    </history-entry>
     <history-entry file="TestAddr - 2017.08.18 at 18h 23m 53s.xml">
       <configuration name="TestAddr" configurationId="AndroidJUnit" />
     </history-entry>
@@ -324,6 +321,9 @@
       <configuration name="TestAddr" configurationId="AndroidJUnit" />
     </history-entry>
     <history-entry file="TestAddr - 2017.08.18 at 18h 50m 06s.xml">
+      <configuration name="TestAddr" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="TestAddr - 2017.08.18 at 18h 51m 36s.xml">
       <configuration name="TestAddr" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
@@ -385,7 +385,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/TestAddr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980">
+        <state relative-caret-position="-2277">
           <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
@@ -393,19 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/QuotedValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="165">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#159#160#0" expanded="true" />
             <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
             <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>

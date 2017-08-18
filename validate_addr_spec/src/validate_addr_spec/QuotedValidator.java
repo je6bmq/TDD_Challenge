@@ -5,7 +5,7 @@ public class QuotedValidator {
         return quoted.charAt(0) == '\"';
     }
     public static boolean isValidLQ2(String quoted) {
-        return true;
+        return quoted.lastIndexOf("\"") == quoted.length() - 1;
     }
     public static boolean isValidLQ3(String quoted) {
         return true;
