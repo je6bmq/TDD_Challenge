@@ -46,19 +46,19 @@
       <file leaf-file-name="DomainDotValidator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/DomainDotValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+            <state relative-caret-position="231">
+              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
               <folding>
                 <element signature="e#114#115#0" expanded="true" />
                 <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#194#195#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -339,8 +339,8 @@
     <history-entry file="TestAddr - 2017.08.18 at 18h 24m 03s.xml">
       <configuration name="TestAddr" configurationId="AndroidJUnit" />
     </history-entry>
-    <history-entry file="TestAddr_testD1_LD1 - 2017.08.18 at 18h 16m 52s.xml">
-      <configuration name="TestAddr.testD1_LD1" configurationId="AndroidJUnit" />
+    <history-entry file="TestAddr - 2017.08.18 at 18h 25m 08s.xml">
+      <configuration name="TestAddr" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -412,19 +412,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/validate_addr_spec/DomainDotValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="60" lean-forward="false" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        <state relative-caret-position="231">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#114#115#0" expanded="true" />
             <element signature="e#141#142#0" expanded="true" />
             <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
           </folding>
         </state>
       </provider>
