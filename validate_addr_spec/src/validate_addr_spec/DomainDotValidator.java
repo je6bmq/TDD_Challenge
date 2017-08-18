@@ -1,6 +1,6 @@
 package validate_addr_spec;
 
-public class DomainValidator {
+public class DomainDotValidator {
     public static boolean isValidD1(String domain) {
         return true;
     }

@@ -13,43 +13,89 @@ public class TestAddr {
 
 	@Test
 	public void testD1(){
-		String s = "example.com";
-		String s2 = "example<>.com";
-		assertTrue(DomainValidator.isValidD1(s));
-		assertFalse(DomainValidator.isValidD1(s2));
+		String valid[] = {"example.com"};
+		String invalid[] = {"example<>.com"};
+		for (String s: valid) {
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
+		}
+		for (String s: invalid) {
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD1(s));
+		}
+
 	}
 
 	@Test
 	public void testD2(){
-		String s = "example.com";
-		String s2 = ".example.com";
-		assertTrue(DomainValidator.isValidD2(s));
-		assertFalse(DomainValidator.isValidD2(s2));
+		String valid[] = {"example.com"};
+		String invalid[] = {".example.com"};
+
+		for (String s: valid) {
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD2(s));
+		}
+		for (String s: invalid) {
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD2(s));
+		}
+
 	}
 
 	@Test
 	public void testD3(){
-		String s = "example.com";
-		String s2 = "example.com.";
-		assertTrue(DomainValidator.isValidD3(s));
-		assertFalse(DomainValidator.isValidD3(s2));
+		String valid[] = {"example.com"};
+		String invalid[] = {"example.com."};
+
+		for (String s: valid) {
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD3(s));
+		}
+		for (String s: invalid) {
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD3(s));
+		}
+
 	}
 
 	@Test
 	public void testD4(){
-		String s = "example.com";
-		String s2 = "example..com";
-		assertTrue(DomainValidator.isValidD4(s));
-		assertFalse(DomainValidator.isValidD4(s2));
+		String valid[] = {"example.com"};
+		String invalid[] = {"example..com"};
+		for (String s: valid) {
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
+		}
+		for (String s: invalid) {
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD1(s));
+		}
+
 	}
 
 	@Test
 	public void testD5(){
-		String s = "example.com";
-		String s2 = "";
-		assertTrue(DomainValidator.isValidD5(s));
-		assertFalse(DomainValidator.isValidD5(s2));
+		String valid[] = {"example.com"};
+		String invalid[] = {""};
+		for (String s: valid) {
+			assertTrue("domain:"+s+" is invalid",DomainDotValidator.isValidD1(s));
+		}
+		for (String s: invalid) {
+			assertFalse("domain:"+s+ "is valid, but it isn't expected..",DomainDotValidator.isValidD1(s));
+		}
+
 	}
 
+	@Test
+	public void testLD1() {
 
+	}
+	@Test
+	public void testLD2() {
+
+	}
+	@Test
+	public void testLD3() {
+
+	}
+	@Test
+	public void testLD4() {
+
+	}
+	@Test
+	public void testLD5() {
+
+	}
 }
