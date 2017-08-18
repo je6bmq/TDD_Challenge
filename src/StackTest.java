@@ -14,9 +14,14 @@ public class StackTest extends TestCase{
 		assertTrue(stack.isEmpty());
 	}
 	@Test
-	public void testPush() {
+	public void testSize(){
+		Stack stack = new Stack();
+		assertEquals(stack.size(),0);
+	}
+	@Test
+	public void testPush(){
 		Stack stack= new Stack();
 		stack.push(1);
-		assertFalse(stack.isEmpty());
+		assertEquals(stack.size(),1);
 	}
 }
