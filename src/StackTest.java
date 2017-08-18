@@ -1,16 +1,16 @@
-import static org.junit.Assert.*;
-
-import java.util.Stack;
-
 import org.junit.Test;
 
-public class StackTest {
+import junit.framework.TestCase;
+
+public class StackTest extends TestCase{
 
 	@Test
 	public void test() {
 		//fail("まだ実装されていません");
-		Stack stack = new Stack();;
+	}
 
+	public void testCreate(){
+		Stack stack = new Stack();
 		assertTrue(stack.isEmpty());
 	}
 
